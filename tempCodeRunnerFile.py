@@ -1,1 +1,1 @@
-thisset.remove(1)
+students.clear()

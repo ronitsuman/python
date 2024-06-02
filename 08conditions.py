@@ -1,9 +1,9 @@
-# age = 16 ;
+age = 16 ;
 
-# if age >= 18 :
-#     print("you are eligible") 
-# else:
-#     print("you are not eligible ")
+if age >= 18 :
+    print("you are eligible") 
+else:
+    print("you are not eligible ")
 
 # a = input("Enter A : ")
 # b = input("Enter B :" ) ;

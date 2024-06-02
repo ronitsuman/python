@@ -26,6 +26,6 @@ c = 1j + 10 ;
 print(type(c))
 
 import random ;
-print(random.randrange(1,10))
+print(random.randrange(90,100))
 
 

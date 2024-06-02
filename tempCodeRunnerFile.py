@@ -1,1 +1,1 @@
-students.clear()
+print(thisdict["age"])

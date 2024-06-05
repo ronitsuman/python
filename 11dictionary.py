@@ -16,4 +16,12 @@ mynewfamily  = myfamily
 child1.popitem()
 print(child1)
 print(child1.values())
-pipinstall
+
+
+dictt = {"name" : "ronit", 
+         "age " : "24" , 
+         "gender ": "male" }
+
+
+print(dictt.values())
+

@@ -37,6 +37,8 @@
 # obj = Myclass("john",20)
 # print(obj)
 
+# ek bluprint hai object jo hota diffrent ho skta hai 
+# class name should always be in capital 
 class Myclass :
     def __init__(self,name,age) :
         self.name= name 

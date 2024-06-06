@@ -1,1 +1,1 @@
-print(thisdict["age"])
+obj.myage()

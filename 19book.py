@@ -114,8 +114,76 @@ print(my_square.get_perimeter())
 
 
 # 
+# import smtplib
+
+# server = smtplib.SMTP('smtp.example.com',587)
+# server.starttls()
+# server.login('username','password')
+
+# msg = """"From:sender@example.com
+# To:reciever@example.com 
+# subject:test email
+
+# this is a Test message. """
+
+# server.sendmail('sender@example.com','reciever@example.com',msg)
 
 
+# import smtplib
+
+# smtp_server = 'smtp.example.com'
+# port = 587  # For starttls
+
+# try:
+#     server = smtplib.SMTP(smtp_server, port)
+#     server.ehlo()  # Can be omitted
+#     server.starttls(context=ssl.create_default_context())  # Secure the connection
+#     server.ehlo()  # Can be omitted
+#     print("Connection to SMTP server successful")
+#     server.quit()
+# except Exception as e:
+#     print(f"An error occurred: {e}")
+
+
+# import smtplib
+# from email.mime.multipart import MIMEMultipart
+# from email.mime.text import MIMEText
+
+# def send_email(subject, body, to_email):
+#     # SMTP server configuration
+#     smtp_server = "smtp.gmail.com"
+#     port = 587  # For starttls
+#     sender_email = "your_email@gmail.com"  # Aapka email address
+#     password = "your_password"  # Aapka email password
+
+#     # Create the email headers
+#     message = MIMEMultipart()
+#     message["From"] = ronitsuman59@gmail.com
+#     message["To"] = ronitpubgnew@gmail.com
+#     message["Subject"] = trying to message
+
+#     # Attach the email body to the email
+#     message.attach(MIMEText(body, "plain"))
+
+#     try:
+#         # Connect to the server and send the email
+#         server = smtplib.SMTP(smtp_server, port)
+#         server.starttls()  # Secure the connection
+#         server.login(ronitsuman59@gmail.com, 7857024059Ronit)  # Login to the email account
+#         server.sendmail(sender_email, to_email, message.as_string())  # Send the email
+#         print("Email sent successfully")
+#     except Exception as e:
+#         print(f"Error: {e}")
+#     finally:
+#         server.quit()  # Close the connection
+
+# # Email details
+# subject = "Test Email"
+# body = "This is a test email sent from Python."
+# to_email = "recipient_email@example.com"
+
+# # Send the email
+# send_email(subject, body, to_email)
 
 
     
